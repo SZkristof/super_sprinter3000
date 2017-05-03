@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <body>
+    <title> THE BOSS </title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <h1>User story manager - ADD new story</h1>
+
+    <form action="." method="POST">
+        Story title<br>
+        <input type="text" name="story_title"><br><br>
+        User story<br>
+        <textarea type="text" name="user_story" ></textarea><br><br>
+        Acceptance criteria<br>
+        <textarea type="text" name="acceptance_criteria"></textarea><br><br>
+        Business value<br>
+        <input id=businessvalue type="number" step="100" min="100" max="1500" name="business_value"><br><br>
+        Estimation time (h)<br>
+        <input id=estimationtime type="number" step="0.5" min="0.5" max="40" name="estimation_time"><br><br>
+        Status<br>
+        <select>
+            <option value="planning">Planning</option>
+            <option value="todo">TODO</option>
+            <option value="inprogress">In Progress</option>
+            <option value="review">Review</option>
+            <option value="done">Done</option>
+        </select><br><br>
+        <input id=create_button type="Submit" value="Create" name="my-form">
+    </form>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    background-color: lightgrey;
+    width: 300px;
+    border: 5px solid black;
+    padding: 25px;
+    margin: auto;
+    text-align: left
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+    resize: none;
+}
+
+input {
+    width: 300px;
+}
+
+#create_button {
+    width: 55px;
+    text-align: right;
+    float: right;
+    margin: -10;
+}
+
+#businessvalue {
+    width: 90px;
+}
+
+#estimationtime {
+    width: 90px;
+}
