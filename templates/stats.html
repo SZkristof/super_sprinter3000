@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <body>
+        <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+        </style>
+        <title> Statistics </title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='stats.css') }}">
+        <h1>User Story Board</h1>
+        <form>
+            <table style="table-layout: fixed; width: 100%" id=result_table>
+                <tr>
+                    <th>Story title</th>
+                    <th>User story</th> 
+                    <th>Acceptance criteria</th>
+                    <th>Business value</th>
+                    <th>Estimation</th>
+                    <th>Status</th>
+                    <th>Actions</th>              
+                    {% for row in range(lengths) %}
+                        <tr>
+                            {% for column in range(0,6) %}
+                            <td> {{ result_list[row][column] }} </td>
+                            {% endfor %}
+                            <td> <input id=edit_button type="button" value="edit">
+                                 <input id=remove_button type="button" value="remove"> 
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tr>
+        </form>
+    </body>
+</html>
