@@ -35,3 +35,9 @@ input {
 #estimationtime {
     width: 90px;
 }
+
+#forwardbutton {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
