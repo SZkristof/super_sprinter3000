@@ -1,0 +1,11 @@
+Cheese	My story	I accept nothing	400	1.5	review
+Dog	My bad	thdhahsdha	1400	23.5	done
+Beka	sda	sadasd	400	20	done
+My story title 	Change user interface, change buttons, be more interactive	I accept only if everything works. It would be really nice to have some real programmers working on this	100	30	inprogress
+Kacsa	this is my story	nooo way!!!!!	1500	40	todoDick	Dick	Dick	200	6.5	review
+My first title	sdadasadas	sadasdsad	200	1	planning
+My first title	sdadasadas	sadasdsad	200	1	planning
+msmadms	sadsdasa	sddasdsad	400	10	planning
+utolso	utolso	utolso	400	2.5	review
+mARTA	Whatever	asidmosadmpsmadpmdasp	1100	5.5	inprogress
+Márió	ksmadmpamp	mpifmapdmspi	200	1.5	planning
